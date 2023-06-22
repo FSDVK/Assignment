@@ -39,21 +39,11 @@
                 padding: 20px;
                 margin-top: 40px;
             }
-            
-        }
-    }
-
-    .footer{
-        background-color: red;
-        padding: 20px;
-    }
-}
-
-h2{
+            h2{
     /* margin-top: 50px; */
 }
-Link button{
-    background-color: gainsboro;;
+button{
+    background-color: gainsboro;
     color: black;
     border: none;
     width: 10%;
@@ -64,3 +54,14 @@ Link button{
     justify-content: center;
     margin-top: 10px;
 } 
+
+            
+        }
+    }
+
+    .footer{
+        background-color: red;
+        padding: 20px;
+    }
+}
+
