@@ -1,4 +1,4 @@
-.main{
+.container{
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -27,25 +27,26 @@
         }
     }
 
+    .inttext{
+        background-color: gainsboro;
+        color: black;
+        border: none;
+        padding: 10px;
+        display: flex;
+        margin: 20px 100px;
+    }
+
+    .btn{
+        background-color: gainsboro;
+        color: black;
+        border: none;
+        padding: 10px 50px 10px 50px;
+        margin: 20px 100px;
+    }
+
     .footer{
         background-color: red;
-        padding: 20px;
+        /* padding: 20px; */
     }
 }
 
-input{
-    background-color: gainsboro;
-    color: black;
-    border: none;
-    padding: 10px;
-    display: flex;
-    margin: 20px 100px;
-}
-
-button{
-    background-color:gainsboro;
-    color: black;
-    border: none;
-    padding: 10px 50px 10px 50px;
-    margin: 20px 100px;
-}

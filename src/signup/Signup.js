@@ -30,7 +30,7 @@ function Signup() {
 
   return (
     <>
-      <div className='main'>
+      <div className='container'>
         <div className='header'></div>
 
         <div className='body'>
@@ -38,10 +38,10 @@ function Signup() {
 
             <div className='right'>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" value={credentials.username}  onChange={onChange} name='username' placeholder="Username" />
-                    <input type='email' name='email' value={credentials.email} onChange={onChange} placeholder='Email' />
-                    <input type="password" value={credentials.password}  onChange={onChange} name='password' placeholder="Password" />
-                    <button type="submit">SignUp</button>
+                    <input type="text" className='inttext' value={credentials.username}  onChange={onChange} name='username' placeholder="Username" />
+                    <input type='email' className='inttext' name='email' value={credentials.email} onChange={onChange} placeholder='Email' />
+                    <input type="password" className='inttext' value={credentials.password}  onChange={onChange} name='password' placeholder="Password" />
+                    <button className='btn' type="submit">SignUp</button>
                 </form>           
             </div>
 

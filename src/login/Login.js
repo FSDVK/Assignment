@@ -30,7 +30,7 @@ function Login() {
 
   return (
     <>
-      <div className='main'>
+      <div className='container'>
         <div className='header'></div>
 
         <div className='body'>
@@ -38,9 +38,9 @@ function Login() {
 
             <div className='right'>
                 <form onSubmit={handleSubmit}>
-                    <input type="text" value={credentials.username}  onChange={onChange} name='username' placeholder="Username" />
-                    <input type="password"  value={credentials.password}  onChange={onChange} name='password' placeholder="Password" />
-                    <button type="submit">Login</button>
+                    <input className='inttext' type="text" value={credentials.username}  onChange={onChange} name='username' placeholder="Username" />
+                    <input className='inttext' type="password"  value={credentials.password}  onChange={onChange} name='password' placeholder="Password" />
+                    <button className='btn' type="submit">Login</button>
                 </form>           
             </div>
 

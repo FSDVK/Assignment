@@ -3,10 +3,7 @@ import Welcome from './welcome/Welcome';
 import Login from './login/Login';
 import SignUp from './signup/Signup';
 import Home from './home/Home';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
   const router = createBrowserRouter([

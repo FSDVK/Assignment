@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Welcome() {
   return (
     <>
-      <div className='main'>
+      <div className='contain'>
         <div className='header'></div>
 
         <div className='body'>
@@ -14,11 +14,9 @@ function Welcome() {
             <div className='right'>
                 <div className='rightFirst'></div>
                 <div className='rightSecond'></div>
-                <h2>Welcome</h2>
-                <Link to="/register"><button>Register</button></Link>
-                <Link to="/login"><button>Login</button></Link>  
-                {/* <button>Register</button> 
-                <button>Login</button>       */}
+                <div id='text'>Welcome</div>
+                <Link to="/register"><button className='btn'>Register</button></Link>
+                <Link to="/login"><button className='btn'>Login</button></Link>  
             </div>
 
         </div>
